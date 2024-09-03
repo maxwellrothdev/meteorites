@@ -14,7 +14,7 @@ A database (meteorites.db) was created and the data set imported as a CSV from N
 
 The data set included coordinates but no other location data. To enrich the data for this project and future projects, a Python command-line program ([reverse_geo.py](https://github.com/maxwellrothdev/meteorites/blob/main/reverse_geo.py)) was written to perform reverse geocoding on a CSV file to extract location data, country data in this case, based on given coordinates. The program imports a CSV file as a Pandas DataFrame, takes a column of coordinates in set batches to not overwhelm the API, and returns a new column with the country data.
 
-After designing a UI with Adobe and Figma, the database was connected via Google Cloud to Tableau to create visualizations and an interactive dashboard.
+After designing a UI with Adobe and Figma, the database was connected via Google Cloud to Tableau to create visualizations and an [interactive dashboard](https://public.tableau.com/app/profile/maxwellroth/viz/Meteorites_17207246953380/Main).
 
 ## Programming Languages and Tools 
 
